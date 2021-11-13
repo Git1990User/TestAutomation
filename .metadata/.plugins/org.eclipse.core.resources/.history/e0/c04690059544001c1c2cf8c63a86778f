@@ -1,0 +1,39 @@
+package com.test.automation;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+
+
+
+public  ChromeDriver driver;	 
+
+  
+public class FirstClass {
+	
+	@Test
+	  public void CheckResponseCode() {
+		String url;
+		url="https://www.google.com/";
+	WebDriverManager.chromedriver().setup();
+	driver=new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.get(url);
+	 String href;
+	 int statusCode;
+	 WebElement 
+	 href = url.getAttribute("href");
+     statusCode = new HttpResponseCode().httpResponseCodeViaGet(href);
+
+     if(200 != statusCode) {
+         System.out.println(href + " gave a response code of " + statusCode);
+     }
+	}
+}
+

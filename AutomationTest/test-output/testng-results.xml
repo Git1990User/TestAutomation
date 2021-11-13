@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-11-13T23:21:04 PKT" name="Default suite" finished-at="2021-11-13T23:22:03 PKT" duration-ms="58882">
+    <groups>
+    </groups>
+    <test started-at="2021-11-13T23:21:04 PKT" name="Default test" finished-at="2021-11-13T23:22:03 PKT" duration-ms="58882">
+      <class name="com.test.automation.FirstClass">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:04 PKT" name="SetUp" finished-at="2021-11-13T23:21:04 PKT" duration-ms="270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="ResponseCode()[pri:1, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:04 PKT" name="ResponseCode" finished-at="2021-11-13T23:21:09 PKT" duration-ms="5278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ResponseCode -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:09 PKT" name="getResult" finished-at="2021-11-13T23:21:09 PKT" duration-ms="7" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=ResponseCode status=SUCCESS method=FirstClass.ResponseCode()[pri:1, instance:com.test.automation.FirstClass@7133da86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:09 PKT" name="tearDown" finished-at="2021-11-13T23:21:10 PKT" duration-ms="315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Search()[pri:2, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:10 PKT" name="Search" finished-at="2021-11-13T23:21:12 PKT" duration-ms="2237" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Search -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:12 PKT" name="getResult" finished-at="2021-11-13T23:21:12 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Search status=SUCCESS method=FirstClass.Search()[pri:2, instance:com.test.automation.FirstClass@7133da86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:12 PKT" name="tearDown" finished-at="2021-11-13T23:21:12 PKT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="Verify()[pri:3, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:12 PKT" name="Verify" finished-at="2021-11-13T23:21:33 PKT" duration-ms="20604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Verify -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:33 PKT" name="tearDown" finished-at="2021-11-13T23:21:33 PKT" duration-ms="29" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:33 PKT" name="getResult" finished-at="2021-11-13T23:21:33 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=Verify status=SUCCESS method=FirstClass.Verify()[pri:3, instance:com.test.automation.FirstClass@7133da86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method signature="checkURLs()[pri:4, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:21:33 PKT" name="checkURLs" finished-at="2021-11-13T23:22:03 PKT" duration-ms="30316" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURLs -->
+        <test-method is-config="true" signature="getResult(org.testng.ITestResult)[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:22:03 PKT" name="getResult" finished-at="2021-11-13T23:22:03 PKT" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkURLs status=SUCCESS method=FirstClass.checkURLs()[pri:4, instance:com.test.automation.FirstClass@7133da86] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getResult -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:22:03 PKT" name="tearDown" finished-at="2021-11-13T23:22:03 PKT" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.test.automation.FirstClass@7133da86]" started-at="2021-11-13T23:22:03 PKT" name="tearDown" finished-at="2021-11-13T23:22:03 PKT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.automation.FirstClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

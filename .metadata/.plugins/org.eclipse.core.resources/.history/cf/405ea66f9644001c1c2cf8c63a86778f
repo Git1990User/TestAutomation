@@ -1,0 +1,42 @@
+package com.test.automation;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+import io.restassured.RestAssured;
+
+  
+public class FirstClass {
+	
+	ChromeDriver driver;
+	
+	@Test
+	 public void ResponseCode() {
+		String url;
+		url="https://www.google.com/";
+	WebDriverManager.chromedriver().setup();
+	driver=new ChromeDriver();
+	driver.manage().window().maximize();
+	driver.get(url);
+	WebElement link=driver.findElement(By.cssSelector("a"));
+	}
+	
+	 public int httpResponseCodeViaGet(String url) {
+         return RestAssured.get(url).statusCode();
+ }
+
+ public int httpResponseCodeViaPost(String url) {
+     return RestAssured.post(url).statusCode();
+ }
+
+ public static void main(String args[]) {
+     new HttpResponseCode().httpResponseCodeViaGet("http://www.google.com");
+ }
+}
+
